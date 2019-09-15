@@ -30,13 +30,5 @@ export const sortVideo = (items) => dispatch => {
     dispatch({
         type: 'sort',
         payload: items
-    })
-};
-
-export const addToWhistList = (item) => dispatch => {
-    console.log(item);
-    dispatch({
-        type: 'addToWhistList',
-        payload: item
-    })
+    });
 };

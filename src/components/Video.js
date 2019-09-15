@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types'
-import { addToWhistList } from '../actions/operationAction'
+import { addToWhistList } from '../actions/whistlistAction'
 
 class Video extends Component {
 

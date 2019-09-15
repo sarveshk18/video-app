@@ -1,6 +1,5 @@
 const initialState = {
-    items: [],
-    myWhistlist: []
+    items: []
 }
 
 export default function (state = initialState, actions) {
@@ -18,12 +17,6 @@ export default function (state = initialState, actions) {
             return {
                 ...state,
                 items: actions.payload
-            };
-        case 'addToWhistList':
-            console.log("----");
-            return {
-                ...state,
-                myWhistlist: [...state.myWhistlist, actions.payload]
             };
         default:
             return state;
