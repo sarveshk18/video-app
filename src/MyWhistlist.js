@@ -37,7 +37,7 @@ MyWhistlist.protoTypes = {
 }
 
 const mapStateToProps = state => ({
-    myWhistlist: state.fetch.myWhistlist
+    myWhistlist: state.whistlist.myWhistlist
 });
 
 export default connect(mapStateToProps)(MyWhistlist);
