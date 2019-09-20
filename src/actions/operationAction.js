@@ -5,7 +5,7 @@ export const searchAction = (searchText) => dispatch => {
         'part': 'snippet',
         'maxResults': '10',
         'q': searchText,
-        'key': 'AIzaSyBcNIzgd8-hYtbg4XG873e9sh2Aco1DSQw'
+        'key': ''
     }
     var url = 'https://www.googleapis.com/youtube/v3/search?';
     for (var key in param) {
